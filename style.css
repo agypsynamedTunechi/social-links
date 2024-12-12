@@ -61,11 +61,12 @@ main {
 }
 
 .container {
-  margin: 30px 50px 10px 50px;
-  padding: 40px;
+  margin: 30px 20px 10px 20px;
+  padding: 20px;
   background: var(--grey);
   width: 300px;
   max-width: 350px;
+  /* height: 80vh; */
   border-radius: 10px;
 
 
