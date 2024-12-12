@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --white : hsl(0, 0%, 100%);
+  --dark-grey : hsl(0, 0%, 8%);
+  --grey : hsl(0, 0%, 12%);
+  --light-grey: hsl(0, 0%, 20%);
+  --green: hsl(75, 94%, 57%);
+
+  font-size: 14px;
+}
+
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--white);
+  background: var(--dark-grey);
+  text-align: center;
+}
+
+h1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: .3rem;
+  margin-top: 2rem;
+}
+
+h3{
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--green);
+}
+
+p{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+a{
+  text-decoration: none;
+  color: var(--white);
+  display: block;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.link-container a:hover,.link-container a:focus{
+  background-color: var(--green);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 30px 50px 10px 50px;
+  padding: 40px;
+  background: var(--grey);
+  width: 300px;
+  max-width: 350px;
+  border-radius: 10px;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.img_container img {
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+.link-container{
+  width: 100%;
+}
+
+.link{
+  background: var(--light-grey);
+  width: 100%;
+  padding: 12px 0;
+}
+
+.span{
+  margin-bottom: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+ 
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  display: inline;
+}
