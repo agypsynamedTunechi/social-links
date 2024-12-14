@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/agypsynamedTunechi/social-links.git)
-- Live Site URL: [Add live site URL here](https://agpsynamedtunechi.github.io/social-links/)
+- Live Site URL: [Add live site URL here](https://agypsynamedtunechi.github.io/social-links/)
 
 ## My process
 
